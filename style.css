@@ -1,86 +1,91 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-    .navbar {
-            height: 10vh;
-            width: 100vw;
-            background-color: #1fc7ff;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 4vw;
-            color: rgb(5, 1, 17);
-        }
-           .navbarlinks a {
-            color: rgb(2, 2, 2);
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: 500;
-        }
-        a{
-           margin: 10px; 
-        }
-        
-        .user-name {
-            font-size: 1rem;
-            font-weight: 600;
-        }
-         .hero {
-            height: 60vh;
-            width: 100vw;
-            display: flex;
-            align-items: center;
-            padding: 0 5vw;
-            background-color: #f5f9ff;
-        }
-         #heading{
-            color: #3cdbff;
-    
-         }
-        .hero-left {
-            width: 50%;
-            margin: 60px;
-        }
 
-        .hero-left h1 {
-            font-size: 3rem;
-            color: #222;
-            margin-bottom: 1rem;
-        }
+/* ================= NAVBAR ================= */
+.navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: #1fc7ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+    color: rgb(5, 1, 17);
+}
 
-        .hero-left p {
-            font-size: 1.2rem;
-            color: #555;
-            margin-bottom: 2rem;
-            line-height: 1.6;
-        }
+.navbarlinks a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 10px;
+}
 
-        .hero-left button {
-            padding: 0.8rem 2rem;
-            font-size: 1rem;
-            border: none;
-            background-color: #3cdbff;
-            color: rgb(255, 240, 240);
-            border-radius: 10px;
-            cursor: pointer;
-        }
+.user-name {
+    font-size: 1rem;
+    font-weight: 600;
+}
 
-        .hero-left button:hover {
-            background-color: #abd3fa;
+/* ================= HERO SECTION ================= */
+.hero {
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    background-color: #f5f9ff;
+}
 
-        }
+/* ================= HERO LEFT ================= */
+.hero-left {
+    width: 50%;
+}
 
-        .hero-right{
-            float: left;
-            justify-content: left;
-            display: flex;
-            
-        }
-        .hero-right img {
-            width: 450px;
-            max-height: 600px;
-            object-fit: contain;
-        }
-     
+.hero-left h1 {
+    font-size: 3rem;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+#heading {
+    color: #3cdbff;
+}
+
+.hero-left p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.hero-left button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #3cdbff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero-left button:hover {
+    background-color: #abd3fa;
+}
+
+/* ================= HERO RIGHT ================= */
+.hero-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
